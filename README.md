@@ -1,3 +1,12 @@
+#INSTRUCTIONS ON HOW TO SET UP THIS PROJECT
+1. run npm install once you make a copy of this repository inside the root project folder
+2. download Redux Dev Tools so you can check the state of the store/actions at any time
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+more on Redux Dev Tools here: https://github.com/zalmoxisus/redux-devtools-extension
+3. open a terminal and navigate to the project folder then run npm start
+4. your browser should be open now on localhost:3000 and you should be able to see the app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
