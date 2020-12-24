@@ -1,0 +1,40 @@
+@import '../../../shared.scss';
+
+//TODO add font size and gutters to sass variables
+.userEntry {
+  padding: 21px 0;
+  border-bottom: 1px solid $light-grey;
+  color: $deep-blue;
+  font-size: 14px;
+
+  .type {
+    grid-area: type;
+
+    & input {
+      margin-right: 16px;
+      border-radius: 0;
+      background-color: $grey;
+    }
+  }
+
+  .name {
+    grid-area: name;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .tel {
+    grid-area: tel;
+  }
+
+  .status {
+    grid-area: status;
+    text-align: center;
+  }
+
+  display: grid;
+  grid-template-areas: 'type name email tel . . status';
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr 1fr 1fr;
+}
