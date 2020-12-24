@@ -1,13 +1,9 @@
 # INSTRUCTIONS ON HOW TO SET UP THIS PROJECT
-1. run npm install once you make a copy of this repository inside the root project folder
-2. download Redux Dev Tools so you can check the state of the store/actions at any time
-
-https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
-more on Redux Dev Tools here: https://github.com/zalmoxisus/redux-devtools-extension
-3. open a terminal and navigate to the project folder then run npm start
-4. your browser should be open now on localhost:3000 and you should be able to see the app
-
-4.1 on the top right side of the browser you can open the Redux Dev Tools click on the state tab and check what's in the state at that point
+## 1. run npm install once you make a copy of this repository inside the root project folder
+## 2. download Redux Dev Tools so you can check the state of the store/actions at any time https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd more on Redux Dev Tools here: https://github.com/zalmoxisus/redux-devtools-extension
+## 3. open a terminal and navigate to the project folder then run npm start
+## 4. your browser should be open now on localhost:3000 and you should be able to see the app
+## 5. on the top right side of the browser you can open the Redux Dev Tools click on the state tab and check what's in the state at that point
 
 
 # Getting Started with Create React App
