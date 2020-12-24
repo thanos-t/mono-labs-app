@@ -15,14 +15,14 @@ const UsersListEntry = ({ user }) => {
 
   return (
     <div className={styles.userEntry}>
-      <div className={[styles.userCategory, styles.type].join(' ')}>
+      <div className={styles.type}>
         <input type='checkbox' />
         {user.type}
       </div>
-      <div className={[styles.userCategory, styles.name].join(' ')}>{user.name}</div>
-      <div className={[styles.userCategory, styles.email].join(' ')}>{user.email}</div>
-      <div className={[styles.userCategory, styles.tel].join(' ')}>{user.phone}</div>
-      <div className={[styles.status].join(' ')}>
+      <div className={styles.name}>{user.name}</div>
+      <div className={styles.email}>{user.email}</div>
+      <div className={styles.tel}>{user.phone}</div>
+      <div className={styles.status}>
         <ToggleSwitch checked={userStatus} changeUserStatus={setUserStatus} />
       </div>
     </div>
