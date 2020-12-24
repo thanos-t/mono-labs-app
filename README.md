@@ -1,4 +1,4 @@
-#INSTRUCTIONS ON HOW TO SET UP THIS PROJECT
+# INSTRUCTIONS ON HOW TO SET UP THIS PROJECT
 1. run npm install once you make a copy of this repository inside the root project folder
 2. download Redux Dev Tools so you can check the state of the store/actions at any time
 https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
