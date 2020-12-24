@@ -5,6 +5,7 @@ https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfk
 more on Redux Dev Tools here: https://github.com/zalmoxisus/redux-devtools-extension
 3. open a terminal and navigate to the project folder then run npm start
 4. your browser should be open now on localhost:3000 and you should be able to see the app
+4.1 on the top right side of the browser you can open the Redux Dev Tools click on the state tab and check what's in the state at that point
 
 
 # Getting Started with Create React App
